@@ -1,0 +1,66 @@
+1. Positive:
+Unigrams: food - 97
+I - 81
+'S - 76
+Restaurant - 49
+Place - 46
+Bigrams: Food service - 8
+i 've - 7
+The food - 6
+Great place - 6
+Wine list - 6
+3-grams: quash ravioli butter s- 2
+Millbrae pancake House - 2
+rosa negra Favorite - 2
+restaurants rosa Negra - 2
+Go wo n't - 2
+4-grams:
+Restaurants rosa negra favorite - 2
+Rest are frequency of 1
+5-grams:
+All have frequency of 1
+
+Negative:
+Unigrams: I - 151
+Food - 93
+'S - 74
+Restaurant - 73
+Service - 63
+Bigrams: the food - 11
+Go back - 10
+Dining experience - 10
+I could - 7
+I 've - 7
+3-grams: I 've ever - 3
+Service the food - 2
+I asked manager - 2
+Chinese bbq restaurant - 2
+N't even apologize - 2
+4-grams:
+All have frequency of 1
+5-grams:
+All have frequency of 1
+
+2. Positive Collocations
+pancake house; wine list; rosa negra; highly recommend; north college;
+open kitchen; outdoor patio; mashed potatoes; several times; ravioli
+butter; squash ravioli; strip mall; delancey street; per person; pork
+chops; highly recommended; brazen head; big city; food service;
+ordered roasted
+Negative Collocations
+dining experience; coral grill; fried rice; prime rib; tourist trap;
+health department; crab legs; number one; fra diablo; refried beans;
+somewhere else; wait staff; medium rare; vancouver hot; asked manager;
+third attempt; service slow; hot spot; course companion; looked like
+
+3. Normalized sentence: excellent restaurant
+Since N of the positive bigrams distribution is 6401 and 'excellent restaurant' shows up twice, the P('excellent restaurant') = 2/6401
+
+4. Since the sentence is a trigram with stop words not removed: 'an excellent restaurant', P('an excellent restaurant') = frequency of 'an excellent restaurant'/N
+
+5. P(the U wine U list) = P(the) + P(wine) + P(list) = 0/N + 17/N + 13/N = 30/N	1 
+N = 6551
+
+6. If you encounter a word that is not in your frequency tables when calculating the probability of an unknown sentence, the probability of that word occurring is 0.
+
+7. A higher order n-gram model is not always a better language model when there is not enough data to make the model effective. In situations where data is more scarce, it makes more sense to use a lower order n-gram model to get more information about the data set.

@@ -1,0 +1,21 @@
+Synsets and Definitions of cat:
+Synset('cat.n.01'): feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats
+Synset('guy.n.01'): an informal term for a youth or man
+Synset('cat.n.03'): a spiteful woman gossip
+Synset('kat.n.01'): the leaves of the shrub Catha edulis which are chewed like tobacco or used to make tea; has the effect of a euphoric stimulant
+Synset('cat-o'-nine-tails.n.01'): a whip with nine knotted cords
+Synset('caterpillar.n.02'): a large tracked vehicle that is propelled by two endless metal belts; frequently used for moving earth in construction and farm work
+Synset('big_cat.n.01'): any of several large cats typically able to roar and living in the wild
+Synset('computerized_tomography.n.01'): a method of examining body organs by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis
+Synset('cat.v.01'): beat with a cat-o'-nine-tails
+Synset('vomit.v.01'): eject the contents of the stomach through the mouth
+Hyponyms of Synset('cat.n.01'):
+[Synset('domestic_cat.n.01'), Synset('wildcat.n.03')]
+Root Hypernyms of Synset('cat.n.01'):
+[Synset('entity.n.01')]
+Hypernyms Path to Root of Synset('cat.n.01'):
+[[Synset('entity.n.01'), Synset('physical_entity.n.01'), Synset('object.n.01'), Synset('whole.n.02'), Synset('living_thing.n.01'), Synset('organism.n.01'), Synset('animal.n.01'), Synset('chordate.n.01'), Synset('vertebrate.n.01'), Synset('mammal.n.01'), Synset('placental.n.01'), Synset('carnivore.n.01'), Synset('feline.n.01'), Synset('cat.n.01')]]
+Path similarity from cat to banana is 0.0769
+Words with highest path similarity from ['dog.n.01', 'man.n.01', 'whale.n.01', 'bark.n.01', 'cat.n.01']:
+Synset('dog.n.01') to Synset('cat.n.01') with similarity of 0.2000
+Synset('man.n.01') to Synset('giant.n.04') with similarity of 0.2000
